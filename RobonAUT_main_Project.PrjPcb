@@ -151,23 +151,6 @@ GenerateClassCluster=0
 DocumentUniqueId=GJEFTLPG
 
 [Document7]
-DocumentPath=I2C.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RRGRRJNS
-
-[Document8]
 DocumentPath=..\ul_292132-5\AltiumDesigner\2022-10-06_13-53-33\292132-5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -182,9 +165,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ESLNBUOX
 
-[Document9]
+[Document8]
 DocumentPath=..\ul_292132-5\AltiumDesigner\2022-10-06_13-53-33\292132-5.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
