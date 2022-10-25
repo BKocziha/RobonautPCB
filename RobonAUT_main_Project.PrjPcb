@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
-OutputPath=
+OutputPath=Project Outputs for RobonAUT_main_Project
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -199,7 +199,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=OBSGIQKU
 
 [Document10]
 DocumentPath=Connectors.SchDoc
@@ -239,6 +239,62 @@ DocumentUniqueId=EAGPHTMO
 DocumentPath=Project Outputs for RobonAUT_main_Project\Design Rule Check - Robonaut_main.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=.\Gerbers\RobonAUT_main_Project-RoundHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=.\Gerbers\RobonAUT_main_Project-SlotHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=.\Gerbers\RobonAUT_main_Project.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=.\Gerbers\RobonAUT_main_Project.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=.\Gerbers\RobonAUT_main_Project.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=.\Gerbers\RobonAUT_main_Project.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=.\Gerbers\RobonAUT_main_Project.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=.\Gerbers\RobonAUT_main_Project.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=.\Gerbers\RobonAUT_main_Project.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=.\Gerbers\RobonAUT_main_Project.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=.\Gerbers\RobonAUT_main_Project.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=.\Gerbers\RobonAUT_main_Project.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=.\Gerbers\RobonAUT_main_Project.REP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=BOM\RobonAUT_main_Project.xlsx
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -250,7 +306,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for RobonAUT_main_Project
 
 [OutputGroup1]
 Name=Netlist Outputs
