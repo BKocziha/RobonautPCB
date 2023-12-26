@@ -1,33 +1,19 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Public\Documents\Altium\Projects\Robonautpcb\Robonaut_main.PcbDoc
-Date     : 25/12/2023
-Time     : 20:56:52
+Date     : 26/12/2023
+Time     : 21:28:18
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
-   Violation between Clearance Constraint: (Collision < 0.15mm) Between Pad ToF2-6(7.54mm,81.92mm) on Multi-Layer And Track (7.54mm,81.92mm)(13.275mm,76.185mm) on Top Layer 
-   Violation between Clearance Constraint: (Collision < 0.15mm) Between Pad ToF3-6(7.54mm,65.92mm) on Multi-Layer And Track (7.54mm,65.92mm)(10.32mm,65.92mm) on Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 0.15mm) Between Track (100.525mm,88.8mm)(100.7mm,88.8mm) on Bottom Layer And Track (100.5mm,88.8mm)(100.7mm,88.8mm) on Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 0.15mm) Between Track (100.525mm,88.8mm)(100.7mm,88.8mm) on Bottom Layer And Track (98.725mm,90.575mm)(100.5mm,88.8mm) on Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 0.15mm) Between Track (100.525mm,88.8mm)(100.7mm,88.8mm) on Bottom Layer And Via (100.7mm,88.8mm) from Top Layer to Bottom Layer 
-Rule Violations :5
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (InNamedPolygon('top_GND') Or InNamedPolygon('bottom_GND')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Pad ToF2-6(7.54mm,81.92mm) on Multi-Layer And Track (7.54mm,81.92mm)(13.275mm,76.185mm) on Top Layer Location : [X = 257.833mm][Y = 331.627mm]
-   Violation between Short-Circuit Constraint: Between Pad ToF3-6(7.54mm,65.92mm) on Multi-Layer And Track (7.54mm,65.92mm)(10.32mm,65.92mm) on Bottom Layer Location : [X = 257.928mm][Y = 315.92mm]
-   Violation between Short-Circuit Constraint: Between Track (100.525mm,88.8mm)(100.7mm,88.8mm) on Bottom Layer And Track (100.5mm,88.8mm)(100.7mm,88.8mm) on Bottom Layer Location : [X = 350.612mm][Y = 338.8mm]
-   Violation between Short-Circuit Constraint: Between Track (100.525mm,88.8mm)(100.7mm,88.8mm) on Bottom Layer And Track (98.725mm,90.575mm)(100.5mm,88.8mm) on Bottom Layer Location : [X = 350.512mm][Y = 338.801mm]
-   Violation between Short-Circuit Constraint: Between Track (100.525mm,88.8mm)(100.7mm,88.8mm) on Bottom Layer And Via (100.7mm,88.8mm) from Top Layer to Bottom Layer Location : [X = 350.612mm][Y = 338.8mm]
-Rule Violations :5
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net INETRIAL_INTERRUPT Between Pad Inertial Sensor-14(78.68mm,39.76mm) on Multi-Layer And Pad U4-44(93.86mm,107.76mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R9-2(91.251mm,41.55mm) on Bottom Layer And Track (91.3mm,40.7mm)(91.4mm,40.7mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net INETRIAL_INTERRUPT Between Pad ToF1-1(5mm,103mm) on Multi-Layer And Via (6mm,106.4mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Track (100.525mm,88.8mm)(100.7mm,88.8mm) on Bottom Layer Dead Copper - Net Not Assigned.
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -65,23 +51,18 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.08mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Track (62.68mm,35.77mm)(63.23mm,35.22mm) on Bottom Layer 
-   Violation between Net Antennae: Track (7.54mm,65.92mm)(10.32mm,65.92mm) on Bottom Layer 
-   Violation between Net Antennae: Track (7.54mm,81.92mm)(13.275mm,76.185mm) on Top Layer 
-   Violation between Net Antennae: Via (6mm,106.4mm) from Top Layer to Bottom Layer 
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Arc (-6.57mm,34.17mm) on Top Overlay And Board Edge 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Arc (-6.57mm,6.23mm) on Top Overlay And Board Edge 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Text "Encoder" (100.19mm,108.673mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (27.06mm,146.09mm)(97.085mm,146.09mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (27.06mm,62.115mm)(27.06mm,146.09mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (-6.57mm,35.44mm)(36.356mm,35.44mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (-6.57mm,4.96mm)(36.356mm,4.96mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (-7.84mm,34.17mm)(-7.84mm,6.23mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (97.085mm,62.115mm)(97.085mm,146.09mm) on Top Overlay 
-Rule Violations :9
+Rule Violations :8
 
 Processing Rule : Room U_main_board (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_main_board'))
    Violation between Room Definition: Between Component B1-Button (18.5mm,-0.45mm) on Top Layer And Room U_main_board (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_main_board')) 
@@ -139,10 +120,10 @@ Processing Rule : Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm
    Violation between Room Definition: Between DIP Component Radio-SLTB004A (37.626mm,4.96mm) on Top Layer And Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) 
    Violation between Room Definition: Between Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) And Small Component MDBAT-Connector (8.75mm,54.75mm) on Top Layer 
    Violation between Room Definition: Between Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) And Small Component Motor connector-Connector (106.125mm,80.525mm) on Top Layer 
-   Violation between Room Definition: Between Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) And Small Component SFRONT-SERVO connector (102.1mm,16.34mm) on Top Layer 
+   Violation between Room Definition: Between Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) And Small Component SFRONT-SERVO connector (102mm,16.54mm) on Top Layer 
    Violation between Room Definition: Between Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) And Small Component SHARP1-SHARP TOF (104mm,58.56mm) on Top Layer 
    Violation between Room Definition: Between Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) And Small Component SHARP2-SHARP TOF (104mm,73.68mm) on Top Layer 
-   Violation between Room Definition: Between Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) And Small Component SREAR-SERVO connector (102.45mm,30.815mm) on Top Layer 
+   Violation between Room Definition: Between Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) And Small Component SREAR-SERVO connector (102mm,31.08mm) on Top Layer 
    Violation between Room Definition: Between Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) And SMT Small Component C1-100nF (41.2mm,73.8mm) on Bottom Layer 
    Violation between Room Definition: Between Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) And SMT Small Component C2-100nF (41.3mm,78.3mm) on Bottom Layer 
    Violation between Room Definition: Between Room U_Connectors (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('U_Connectors')) And SMT Small Component R12-1K (37.1mm,74.8mm) on Bottom Layer 
@@ -156,6 +137,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25mm) (Prefered=12.5mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 89
+Violations Detected : 70
 Waived Violations : 0
 Time Elapsed        : 00:00:02
